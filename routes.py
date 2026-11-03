@@ -1,3 +1,4 @@
+# Các chức năng của font end
 from flask_socketio import SocketIO, emit, join_room, leave_room
 from app import db, app
 from models import User, Invitation, Message, Contact, Session, DeleteRequest

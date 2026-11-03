@@ -2,7 +2,7 @@ import base64
 import logging
 import os
 from datetime import datetime
-
+# chứa hàm mã hóa 
 import pytz
 from cryptography.hazmat.decrepit.ciphers.algorithms import TripleDES
 from cryptography.hazmat.primitives import serialization, hashes, padding as sym_padding
